@@ -22,7 +22,7 @@ jobs:
           python-version: "3.12"
 
       - name: Generate filtered tables
-        run: python filter.py
+        run: python ci-filter.py
 
       - name: Commit filtered files
         run: |
